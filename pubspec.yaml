@@ -1,0 +1,25 @@
+# pubspec.yaml
+name: api_test
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  intl: ^0.20.1
+  google_generative_ai: ^0.4.6
+  flutter_tts: ^4.2.0
+  speech_to_text: ^7.0.0
+  hl_image_picker: ^1.2.16
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
